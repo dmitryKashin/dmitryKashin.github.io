@@ -1,0 +1,73 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	/*header .menu .toggle_mnu {
+		margin-right: 20px;
+	}*/
+	#main_head .top_wrapper .top_centered .description .text_descr h1 {
+		font-size: 1.7em;
+	}
+
+	#main_head .top_wrapper .top_centered .description .text_descr p {
+		font-size: 12px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#contacts .contacts_links .contact_box {
+		display: block;
+		text-align: center;
+		margin-left: 0;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	section .container, 
+	section .container p, 
+	#resume table tr td h3, 
+	#contacts .contacts_links .contact_box a,
+	#contacts .contacts_links .contact_box p {
+		font-size: 12px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
