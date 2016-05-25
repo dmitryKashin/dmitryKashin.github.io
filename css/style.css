@@ -274,6 +274,9 @@ section .ornament {
 #about .photo {
   text-align: center;
 }
+#about .photo img {
+  border-radius: 50%;
+}
 #about .wrap_content {
   overflow-y: hidden;
 }

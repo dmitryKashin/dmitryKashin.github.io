@@ -314,6 +314,9 @@ section {
 	}
 	.photo {
 		text-align: center;
+		img {
+			border-radius: 50%;
+		}
 	}
 	.wrap_content {
 		overflow-y: hidden;
