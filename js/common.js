@@ -1,14 +1,11 @@
 $(document).ready(function() {
-	/*$(window).resize(function(){
-		$("header nav").css("width", $(document).width());
+	function heightDetect() {
+		$("#main_head").css("height", $(window).height());
+	};
+	heightDetect();
+	$(window).resize(function() {
+		heightDetect();
 	});
-	$(window).resize();*/
-	
-	/*$("header nav a").click(function() {
-		$("header .toggle_mnu .fa").removeClass("fa-close");
-		$("header .toggle_mnu .fa").addClass("fa-navicon");
-		$("header nav").css("display", "none");
-	});*/
 
 	$(window).load(function() {
 		$(".loader").fadeOut();
